@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const port = process.env.PORT || 9060;
+const port = process.env.PORT || 3000;
 
 app.listen(port,() => {
     console.log(`API Runing PORT ${port}`);
